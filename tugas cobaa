@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Biodata Kelompok 1 - Desain UI/UX Pem Web</title>
+</head>
+
+<body bgcolor="#fffaf0">
+
+    <!-- Header -->
+    <header>
+        <center>
+            <h1><font color="darkgreen">BIODATA KELOMPOK 1</font></h1>
+            <p>Desain UI/UX &amp; Pemrograman Web</p>
+            <p>Praktikum 1: Dasar-Dasar HTML</p>
+        </center>
+    </header>
+    <hr size="3" color="darkgreen">
+
+    <!-- Intro -->
+    <section id="intro">
+        <table border="2" width="100%" cellpadding="10" cellspacing="0" bgcolor="#f1f8e9">
+            <tr>
+                <td>
+                    <ul>
+                        <li>Nama Kelompok: Kelompok 1</li>
+                        <li>Mata Kuliah: Desain UI/UX Pem Web</li>
+                        <li>Praktikum: Praktikum 1: Dasar-Dasar HTML</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <br>
+
+    <!-- Biodata anggota (grid 2 kolom) -->
+    <section id="anggota">
+        <table width="100%" cellspacing="10">
+
+            <tr>
+
+                <!-- Anggota 1 -->
+                <td width="50%" valign="top">
+                    <article id="anggota1" class="anggota">
+                        <table border="2" width="100%" cellpadding="8" cellspacing="0" bgcolor="#ffffff">
+                            <tr>
+                                <td width="35%" valign="top" bgcolor="#e8f5e9">
+                                    <figure>
+                                        <img src="foto1.jpeg" alt="Foto [NAMA ANGGOTA 1]" width="150" height="200">
+                                    </figure>
+                                </td>
+                                <td valign="top">
+                                    <h3><font color="darkgreen">[NAMA ANGGOTA 1]</font></h3>
+                                    <table>
+                                        <tr><td><font color="gray">NIM</font></td><td>:</td><td>[NIM]</td></tr>
+                                        <tr><td><font color="gray">Kelas</font></td><td>:</td><td>[KELAS]</td></tr>
+                                        <tr><td><font color="gray">Program Studi</font></td><td>:</td><td>[PROGRAM STUDI]</td></tr>
+                                        <tr><td><font color="gray">TTL</font></td><td>:</td><td>[TTL]</td></tr>
+                                        <tr><td><font color="gray">Jenis Kelamin</font></td><td>:</td><td>[JENIS KELAMIN]</td></tr>
+                                        <tr><td><font color="gray">Alamat</font></td><td>:</td><td>[ALAMAT]</td></tr>
+                                        <tr><td><font color="gray">Email</font></td><td>:</td><td>[EMAIL]</td></tr>
+                                        <tr><td><font color="gray">No. HP</font></td><td>:</td><td>[NO HP]</td></tr>
+                                        <tr>
+                                            <td valign="top"><font color="gray">Hobi</font></td>
+                                            <td valign="top">:</td>
+                                            <td>
+                                                <ul>
+                                                    <li>[HOBI 1]</li>
+                                                    <li>[HOBI 2]</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </article>
+                </td>
+
+                <!-- Anggota 2 -->
+                <td width="50%" valign="top">
+                    <article id="anggota2" class="anggota">
+                        <table border="2" width="100%" cellpadding="8" cellspacing="0" bgcolor="#ffffff">
+                            <tr>
+                                <td width="35%" valign="top" bgcolor="#e8f5e9">
+                                    <figure>
+                                        <img src="foto2.jpeg" alt="Foto [NAMA ANGGOTA 2]" width="150" height="200">
+                                    </figure>
+                                </td>
+                                <td valign="top">
+                                    <h3><font color="darkgreen">[NAMA ANGGOTA 2]</font></h3>
+                                    <table>
+                                        <tr><td><font color="gray">NIM</font></td><td>:</td><td>[NIM]</td></tr>
+                                        <tr><td><font color="gray">Kelas</font></td><td>:</td><td>[KELAS]</td></tr>
+                                        <tr><td><font color="gray">Program Studi</font></td><td>:</td><td>[PROGRAM STUDI]</td></tr>
+                                        <tr><td><font color="gray">TTL</font></td><td>:</td><td>[TTL]</td></tr>
+                                        <tr><td><font color="gray">Jenis Kelamin</font></td><td>:</td><td>[JENIS KELAMIN]</td></tr>
+                                        <tr><td><font color="gray">Alamat</font></td><td>:</td><td>[ALAMAT]</td></tr>
+                                        <tr><td><font color="gray">Email</font></td><td>:</td><td>[EMAIL]</td></tr>
+                                        <tr><td><font color="gray">No. HP</font></td><td>:</td><td>[NO HP]</td></tr>
+                                        <tr>
+                                            <td valign="top"><font color="gray">Hobi</font></td>
+                                            <td valign="top">:</td>
+                                            <td>
+                                                <ul>
+                                                    <li>[HOBI 1]</li>
+                                                    <li>[HOBI 2]</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </article>
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <!-- Anggota 3 -->
+                <td width="50%" valign="top">
+                    <article id="anggota3" class="anggota">
+                        <table border="2" width="100%" cellpadding="8" cellspacing="0" bgcolor="#ffffff">
+                            <tr>
+                                <td width="35%" valign="top" bgcolor="#e8f5e9">
+                                    <figure>
+                                        <img src="foto3.jpeg" alt="Foto [NAMA ANGGOTA 3]" width="150" height="200">
+                                    </figure>
+                                </td>
+                                <td valign="top">
+                                    <h3><font color="darkgreen">[NAMA ANGGOTA 3]</font></h3>
+                                    <table>
+                                        <tr><td><font color="gray">NIM</font></td><td>:</td><td>[NIM]</td></tr>
+                                        <tr><td><font color="gray">Kelas</font></td><td>:</td><td>[KELAS]</td></tr>
+                                        <tr><td><font color="gray">Program Studi</font></td><td>:</td><td>[PROGRAM STUDI]</td></tr>
+                                        <tr><td><font color="gray">TTL</font></td><td>:</td><td>[TTL]</td></tr>
+                                        <tr><td><font color="gray">Jenis Kelamin</font></td><td>:</td><td>[JENIS KELAMIN]</td></tr>
+                                        <tr><td><font color="gray">Alamat</font></td><td>:</td><td>[ALAMAT]</td></tr>
+                                        <tr><td><font color="gray">Email</font></td><td>:</td><td>[EMAIL]</td></tr>
+                                        <tr><td><font color="gray">No. HP</font></td><td>:</td><td>[NO HP]</td></tr>
+                                        <tr>
+                                            <td valign="top"><font color="gray">Hobi</font></td>
+                                            <td valign="top">:</td>
+                                            <td>
+                                                <ul>
+                                                    <li>[HOBI 1]</li>
+                                                    <li>[HOBI 2]</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </article>
+                </td>
+
+                <!-- Anggota 4 -->
+                <td width="50%" valign="top">
+                    <article id="anggota4" class="anggota">
+                        <table border="2" width="100%" cellpadding="8" cellspacing="0" bgcolor="#ffffff">
+                            <tr>
+                                <td width="35%" valign="top" bgcolor="#e8f5e9">
+                                    <figure>
+                                        <img src="foto4.jpeg" alt="Foto [NAMA ANGGOTA 4]" width="150" height="200">
+                                    </figure>
+                                </td>
+                                <td valign="top">
+                                    <h3><font color="darkgreen">[NAMA ANGGOTA 4]</font></h3>
+                                    <table>
+                                        <tr><td><font color="gray">NIM</font></td><td>:</td><td>[NIM]</td></tr>
+                                        <tr><td><font color="gray">Kelas</font></td><td>:</td><td>[KELAS]</td></tr>
+                                        <tr><td><font color="gray">Program Studi</font></td><td>:</td><td>[PROGRAM STUDI]</td></tr>
+                                        <tr><td><font color="gray">TTL</font></td><td>:</td><td>[TTL]</td></tr>
+                                        <tr><td><font color="gray">Jenis Kelamin</font></td><td>:</td><td>[JENIS KELAMIN]</td></tr>
+                                        <tr><td><font color="gray">Alamat</font></td><td>:</td><td>[ALAMAT]</td></tr>
+                                        <tr><td><font color="gray">Email</font></td><td>:</td><td>[EMAIL]</td></tr>
+                                        <tr><td><font color="gray">No. HP</font></td><td>:</td><td>[NO HP]</td></tr>
+                                        <tr>
+                                            <td valign="top"><font color="gray">Hobi</font></td>
+                                            <td valign="top">:</td>
+                                            <td>
+                                                <ul>
+                                                    <li>[HOBI 1]</li>
+                                                    <li>[HOBI 2]</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </article>
+                </td>
+
+            </tr>
+
+            <!-- Anggota 5 (di bawah, di tengah) -->
+            <tr>
+                <td colspan="2" valign="top">
+                    <article id="anggota5" class="anggota">
+                        <table border="2" width="50%" align="center" cellpadding="8" cellspacing="0" bgcolor="#ffffff">
+                            <tr>
+                                <td width="35%" valign="top" bgcolor="#e8f5e9">
+                                    <figure>
+                                        <img src="foto5.jpeg" alt="Foto [NAMA ANGGOTA 5]" width="150" height="200">
+                                    </figure>
+                                </td>
+                                <td valign="top">
+                                    <h3><font color="darkgreen">[NAMA ANGGOTA 5]</font></h3>
+                                    <table>
+                                        <tr><td><font color="gray">NIM</font></td><td>:</td><td>[NIM]</td></tr>
+                                        <tr><td><font color="gray">Kelas</font></td><td>:</td><td>[KELAS]</td></tr>
+                                        <tr><td><font color="gray">Program Studi</font></td><td>:</td><td>[PROGRAM STUDI]</td></tr>
+                                        <tr><td><font color="gray">TTL</font></td><td>:</td><td>[TTL]</td></tr>
+                                        <tr><td><font color="gray">Jenis Kelamin</font></td><td>:</td><td>[JENIS KELAMIN]</td></tr>
+                                        <tr><td><font color="gray">Alamat</font></td><td>:</td><td>[ALAMAT]</td></tr>
+                                        <tr><td><font color="gray">Email</font></td><td>:</td><td>[EMAIL]</td></tr>
+                                        <tr><td><font color="gray">No. HP</font></td><td>:</td><td>[NO HP]</td></tr>
+                                        <tr>
+                                            <td valign="top"><font color="gray">Hobi</font></td>
+                                            <td valign="top">:</td>
+                                            <td>
+                                                <ul>
+                                                    <li>[HOBI 1]</li>
+                                                    <li>[HOBI 2]</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </article>
+                </td>
+            </tr>
+
+        </table>
+    </section>
+    <hr size="3" color="darkgreen">
+
+    <!-- Footer -->
+    <footer>
+        <center>
+            <p>Kelompok 1 - Mata Kuliah Desain UI/UX Pem Web</p>
+            <p>Praktikum 1: Dasar-Dasar HTML</p>
+        </center>
+    </footer>
+
+</body>
+
+</html>
